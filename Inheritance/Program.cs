@@ -7,12 +7,10 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            // TODO Be sure to follow best practice when creating your classes
-            
             //Create an object of your Bird class
             Bird traits = new Bird();
             
-             //  give values to your members using the object of your Bird class
+             // Give values to your members using the object of your Bird class
              traits.Wings = "Some birds are feathered and others are not.";
              traits.Bill = "Birds have different sizes/types of bills.";
              traits.WarmBlooded = "All birds are warm-blooded, even penquins.";
@@ -21,10 +19,10 @@ namespace Inheritance
              // Creatively display the class member values 
              Console.WriteLine($"Birds are amazing. {traits.Wings} {traits.Bill} {traits.WarmBlooded} {traits.Bipedal}\n");  
 
-             //Create an object of your Reptile class
+             // Create an object of your Reptile class
              Reptile characteristics = new Reptile();
               
-              //give values to your members using the object of your Bird class
+              // Give values to your members using the object of your Bird class
 
               characteristics.Oviparous = "All reptiles lay eggs";
               characteristics.ColdBlooded =
@@ -38,7 +36,7 @@ namespace Inheritance
                   "One of the major distinguishing factors between reptiles and other animal classes is the " +
                   "presence of scutes or scales.";  
               
-              //Creatively display the class member values 
+              // Creatively display the class member values 
               Console.WriteLine($"The amazing Reptile. {characteristics.Oviparous} {characteristics.ColdBlooded} {characteristics.Lungs} {characteristics.Scales}");
 
         }

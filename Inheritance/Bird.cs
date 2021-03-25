@@ -8,7 +8,7 @@ namespace Inheritance
         public Bird()
         {
         }
-        // give this class 4 members that are specific to Bird
+        // Give this class 4 members that are specific to Bird
         public string Wings { get; set; }
         public string Bill { get; set; }
         public string WarmBlooded { get; set; }

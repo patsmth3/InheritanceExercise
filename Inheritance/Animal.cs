@@ -8,7 +8,7 @@ namespace Inheritance
         {
         }
         
-        // give this class 4 members that all Animals have in common
+        // Give this class 4 members that all Animals have in common
         public string Heterotrophy { get; set;}
         public string Eyes { get; set;}
         public string Birthday { get; set;}

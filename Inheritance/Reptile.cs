@@ -7,7 +7,7 @@ namespace Inheritance
         public Reptile()
         {
         }
-        // give this class 4 members that are specific to Reptile
+        // Give this class 4 members that are specific to Reptile
         public string Oviparous { get; set; }
         public string ColdBlooded { get; set; }
         public string Lungs { get; set; }
